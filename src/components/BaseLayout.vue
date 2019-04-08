@@ -57,6 +57,7 @@ export default {
   padding-bottom: 60px;
   flex-grow: 1;
   min-width: 0; // important for children with white-space: nowrap
+  max-width: 80%;
 
   @include mobile {
     padding-bottom: 40px;
@@ -93,6 +94,7 @@ export default {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 main {
